@@ -25,10 +25,14 @@ header #header_text > h2 {
     align-items: center;
 }
 
+.select_by_click {
+    display: flex;
+    margin-left: -100px;
+}
+
 .photo_in_frame {
     width: 850px;
     height: 460px;
-    border: 1px solid black;
     margin-top: 100px;
     margin-bottom: 25px;
 }
@@ -38,8 +42,20 @@ header #header_text > h2 {
     height: 100%;
 }
 
-.select_by_click {
-    display: flex;
+.information_color {
+    margin-top: -10px;
+}
+
+.information_color > p:nth-of-type(1){
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.information_color > p:nth-of-type(2){
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    margin-top: 0;
 }
 
 .round_shape_list {
@@ -48,11 +64,71 @@ header #header_text > h2 {
     gap: 20px;
 }
 
+.round_shape_list div {
+    position: relative;
+    padding: 5px 5px 0 0;
+}
+
+i {
+    color: #00b4d8;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    font-size: 1.2em;
+    opacity: 0;
+}
+
+
+.fa-circle-check1 {
+    opacity: 1;
+}
+
 button {
     width: 34px;
     height: 34px;
     border-radius: 50%;
     border: none;
+    border: 0.5px solid #8d99ae;
+    cursor: pointer;
 }
 
+
+.btn1 {
+    background: url("23그랜저하이브리드/li색상목록/블랙.png");
+}
+.btn2 {
+    background: url("23그랜저하이브리드/li색상목록/세레니티\ 화이트펄\(블랙잉크\).png");
+}
+.btn3 {
+    background: url("23그랜저하이브리드/li색상목록/유기\ 브론즈\ 매트\ \(무광컬러\).png");
+}
+.btn4 {
+    background: url("23그랜저하이브리드/li색상목록/어비스블랙펄.png");
+}
+.btn5 {
+    background: url("23그랜저하이브리드/li색상목록/세레니티\ 화이트\ 펄.png");
+}
+.btn6 {
+    background: url("23그랜저하이브리드/li색상목록/큐레이티드\ 실버\ 메탈릭.png");
+}
+.btn7 {
+    background: url("23그랜저하이브리드/li색상목록/트랜스미션\ 블루\ 펄.png");
+}
+.btn8 {
+    background: url("23그랜저하이브리드/li색상목록/녹턴그레이메탈릭.png");
+}
+.btn9 {
+    background: url("23그랜저하이브리드/li색상목록/바이오필릭\ 블루\ 펄.png");
+}
+.btn10 {
+    background: url("23그랜저하이브리드/li색상목록/밤부\ 차콜\ 그린펄.png");
+}
+.btn11 {
+    background: url("23그랜저하이브리드/li색상목록/유기브론즈메탈릭.png");
+}
+.btn12 {
+    background: url("23그랜저하이브리드/li색상목록/녹턴그레이매트.png");
+}
 
