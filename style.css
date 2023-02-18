@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#logo {
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+header #header_text > h2 {
+    margin-top: 0;
+}
+
+.select_space {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo_in_frame {
+    width: 850px;
+    height: 460px;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+}
+
+.select_by_click {
+    display: flex;
+}
+
+.round_shape_list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+}
+
+
